@@ -2,7 +2,7 @@
   "name": "tiny-truncate",
   "repository": "github:fabiospampinato/tiny-truncate",
   "description": "A tiny function for truncating a string which may containg ANSI escapes, with automatic terminal width detection.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
