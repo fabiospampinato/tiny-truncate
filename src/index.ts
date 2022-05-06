@@ -7,7 +7,7 @@ import ansi from 'ansi-truncate';
 
 const truncate = ( str: string, options?: { ellipsis?: string, width?: number } ): string => {
 
-  const width = globalThis.process?.stdout?.getWindowSize?.()?.[0] || 25;
+  const width = ( globalThis.process?.stdout?.getWindowSize?.()?.[0] || 25 ) - 1;
 
   return ansi ( str, width, options );
 
