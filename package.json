@@ -20,7 +20,7 @@
     "truncate"
   ],
   "dependencies": {
-    "ansi-truncate": "^1.3.0"
+    "ansi-truncate": "^1.4.0"
   },
   "devDependencies": {
     "fava": "^0.3.4",
